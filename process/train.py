@@ -215,4 +215,4 @@ if __name__ == "__main__":
 
         torch.save(model.state_dict(), "checkpoints/best_model4.ckpt")
 
-    print("✅ Training completed!")
+    print("Training completed!")
