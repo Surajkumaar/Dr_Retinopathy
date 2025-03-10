@@ -154,7 +154,7 @@ if __name__ == "__main__":
     num_epochs = 10
     best_val_acc = 0.0
     
-    for epoch in range(n):
+    for epoch in range(num_epochs):
         model.train()
         running_loss = 0.0
         correct = 0
